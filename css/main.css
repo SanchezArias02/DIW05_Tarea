@@ -1,0 +1,89 @@
+* {
+    font-family: 'Nunito', Verdana, sans-serif;
+}
+
+body.login {
+    background-color: #34889c;
+    background: linear-gradient(to right, #34889c, #4678c8);
+}
+
+
+.bg-login {
+    background-image: url('../img/login.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#main-page {
+    background-color: #f8f9fc;
+}
+.callout-primary {
+     border-left-width: 6px;
+     border-left-color: #428bca;
+}
+.callout-success {
+    border-left-width: 6px;
+    border-left-color: #1cc88a;
+}
+.callout-info {
+    border-left-width: 6px;
+    border-left-color: #36b9cc;;
+
+}
+
+
+/*Pág principal*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+/* Información dashboard */
+#card-inf{
+    width: 300px;
+}
+/* Modificacion de la imagen */
+#img{
+    width: 80px;
+    margin: 0.5em;
+    padding: 1em 0 0 0; 
+}
+
+/* Productos en venta*/
+#productos{
+    max-width: 350px;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Código producto */
+#codigo{
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+    text-align: center;
+    color: grey;
+    
+}
+/* Menus de la App */
+#barra-superior{
+    height: 50px;
+}
+
+#barra-inferior{
+    display: block;
+    height: 65px;
+}
+
+/*Boton de todas las categorias al final*/
+.btn-categorias{
+    margin-bottom: 8em;
+}
+
+.producto-final{
+    margin: 1em;
+}
+
+/*Icono donde te encuentras*/
+.seleccionado:hover{
+    border-top: 3px solid blue;
+}
